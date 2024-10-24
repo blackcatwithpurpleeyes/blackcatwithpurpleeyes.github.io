@@ -45,7 +45,6 @@ h6 {
 	50% {
 		opacity: 0%;
 	}
-
 	100% {
 		opacity: 100%;
 		transform:translate(0px,0px)
