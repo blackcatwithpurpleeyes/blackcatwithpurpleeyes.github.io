@@ -9,7 +9,7 @@
 
 h1 {
 	font-family:monospace,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size:calc(300%);
+	font-size:5vw;
 	animation: textdropin 2s ease-in-out;
 	
 	color: #e0fff5;
@@ -18,7 +18,7 @@ h1 {
 
 h6 {
 	font-family:monospace,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size:150%;
+	font-size:3vw;
 	animation: textdropin 4s ease-in-out;
 	
 	color: #e0fff5;
