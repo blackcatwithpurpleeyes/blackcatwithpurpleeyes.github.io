@@ -1,9 +1,28 @@
-body {
+.hedderBackground {
 	background: linear-gradient(-63deg, #FF778E, #D35EA7, #A744C0, #7261A3, #4a4a84, #39545a, #1d2141);
 	background-size:400% 400%;
 	animation: gradient 100s ease infinite;
 	height:auto;
 	width: auto;
+	padding: 10%;
+}
+
+h1 {
+	font-family:monospace,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size:300%;
+	animation: textdropin 2s ease-in-out;
+	
+	color: #e0fff5;
+	text-align: center;
+}
+
+h6 {
+	font-family:monospace,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size:150%;
+	animation: textdropin 4s ease-in-out;
+	
+	color: #e0fff5;
+	text-align: center;
 }
 
 @keyframes gradient {
@@ -16,4 +35,23 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+@keyframes textdropin {
+	0% {
+		opacity: 0%;
+		transform:translate(0px,-100px)
+	}
+	50% {
+		opacity: 0%;
+	}
+
+	100% {
+		opacity: 100%;
+		transform:translate(0px,0px)
+	}
+}
+
+body{
+	background-color: #252730;
 }
