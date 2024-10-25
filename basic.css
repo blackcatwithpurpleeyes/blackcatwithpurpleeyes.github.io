@@ -1,3 +1,15 @@
+@media only screen and (max-with: 600px) {
+	.hedderBackground{
+		background: linear-gradient(-63deg, #FF778E, #D35EA7, #A744C0, #7261A3, #4a4a84, #39545a, #1d2141);
+		background-size:400% 400%;
+		animation: gradient 100s ease infinite;
+		height:100%;
+		width: auto;
+		padding: 10%;
+		border-radius: 3px;
+	}
+}
+
 .hedderBackground {
 	background: linear-gradient(-63deg, #FF778E, #D35EA7, #A744C0, #7261A3, #4a4a84, #39545a, #1d2141);
 	background-size:400% 400%;
@@ -48,6 +60,7 @@ p {
 img {
 	border-radius: 3px;
 	margin-top: 1%;
+	size: auto;
 }
 
 @keyframes gradient {
