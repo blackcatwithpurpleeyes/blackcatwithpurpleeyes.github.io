@@ -1,23 +1,23 @@
-@media only screen and (max-with: 600px) {
-	.hedderBackground{
+#headder {
+	background: linear-gradient(-63deg, #FF778E, #D35EA7, #A744C0, #7261A3, #4a4a84, #39545a, #1d2141);
+	background-size:200% 200%;
+	animation: gradient 100s ease infinite;
+	height:500px;
+	width:80%;
+	padding: 10%;
+	border-radius: 3px;
+}
+
+@media screen and (min-width: 550) {
+	#headder {
 		background: linear-gradient(-63deg, #FF778E, #D35EA7, #A744C0, #7261A3, #4a4a84, #39545a, #1d2141);
 		background-size:400% 400%;
 		animation: gradient 100s ease infinite;
-		height:100%;
-		width: auto;
+		height:auto;
+		width:80%;
 		padding: 10%;
 		border-radius: 3px;
 	}
-}
-
-.hedderBackground {
-	background: linear-gradient(-63deg, #FF778E, #D35EA7, #A744C0, #7261A3, #4a4a84, #39545a, #1d2141);
-	background-size:400% 400%;
-	animation: gradient 100s ease infinite;
-	height:auto;
-	width: auto;
-	padding: 10%;
-	border-radius: 3px;
 }
 
 h1 {
@@ -40,12 +40,15 @@ h6 {
 
 p {
 	color: #e0fff5;
+	font-family:cursive;
 }
 
 #pfp {
 	padding: 3;
 	float: left;
+	
 }
+
 #introText {
 	border: 3px;
 	border-style: solid;
@@ -58,9 +61,12 @@ p {
 }
 
 img {
+	display: block;
 	border-radius: 3px;
 	margin-top: 1%;
-	size: auto;
+	margin-left: 1%;
+	width: 30%;
+	height: auto;
 }
 
 @keyframes gradient {
