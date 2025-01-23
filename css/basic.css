@@ -8,6 +8,10 @@
 	border-radius: 3px;
 }
 
+#forstyGlass {
+	
+}
+
 @media screen and (min-width: 550) {
 	#headder {
 		background: linear-gradient(-63deg, #FF778E, #D35EA7, #A744C0, #7261A3, #4a4a84, #39545a, #1d2141);
@@ -74,18 +78,26 @@ img {
 }
 
 ::-webkit-scrollbar-track {
-	background: #1d2141;
+	background: linear-gradient(#39545a,#252730);
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #d35ea7;
+	background: linear-gradient(#7261A3,#A744C0,#D35EA7,#7261A3);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #A744C0;
+	background:#D35EA7;
 }
 
 ::-webkit-scrollbar-corner {
+	background: #39545a;
+}
+
+::-webkit-scrollbar-button {
+	background: #7261A3;
+}
+
+::-webkit-resizer{
 	background: #39545a;
 }
 
@@ -115,9 +127,13 @@ img {
 	}
 }
 
-zero-md {
-	padding: 3;
+
+style {
+	margin: 3px;
+	padding: 3px;
 	border-radius: 3px;
+	display: block;
+	position: relative;
 }
 
 body{
