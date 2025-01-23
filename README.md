@@ -12,5 +12,3 @@ $M=A*T/H$
 `CODE`
 
 More text
-
-## Just made a change
