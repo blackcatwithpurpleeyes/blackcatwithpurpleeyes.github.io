@@ -70,7 +70,7 @@ img {
 }
 
 ::-webkit-scrollbar {
-	width: 10;
+	width: 10px;
 }
 
 ::-webkit-scrollbar-track {
