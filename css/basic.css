@@ -69,6 +69,26 @@ img {
 	height: auto;
 }
 
+::-webkit-scrollbar {
+	width: 10;
+}
+
+::-webkit-scrollbar-track {
+	background: #1d2141;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #d35ea7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #A744C0;
+}
+
+::-webkit-scrollbar-corner {
+	background: #39545a;
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -93,6 +113,11 @@ img {
 		opacity: 100%;
 		transform:translate(0px,0px)
 	}
+}
+
+zero-md {
+	padding: 3;
+	border-radius: 3px;
 }
 
 body{
